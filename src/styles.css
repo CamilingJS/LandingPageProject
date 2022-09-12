@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.heroBanner {
+  background-image: url("https://assets.codepen.io/6060109/agency-hero-image.png");
+  width: 100%;
+  height: 300px;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.navBar {
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.navBar span {
+  margin: 0 10px 0 10px;
+}
+.heroText {
+  margin: 0 auto;
+  padding: 40px 0 40px 0;
+  color: white;
+}
