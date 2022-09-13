@@ -1,8 +1,10 @@
-export default function ServiceBlock () {
-    
+export default function ServiceBlock (props) {
     return (
         <>
-            Hello from Service Block
+          <div class="sericeBlockContainer" >
+            <img class="serviceImg" src={props.block.imgURL} />
+            <h3>{props.block.text}</h3>
+          </div>
         </>
     )
 }

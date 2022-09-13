@@ -6,6 +6,9 @@ body {
 .App {
   font-family: sans-serif;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .heroBanner {
   background-image: url("https://assets.codepen.io/6060109/agency-hero-image.png");
@@ -29,4 +32,81 @@ body {
 .heroText {
   margin: 0 auto;
   padding: 40px 0 40px 0;
+}
+
+.servicesSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #133588;
+  margin: 40px 0 0 80px;
+}
+
+.servicesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.sericeBlockContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 270px;
+}
+.serviceImg {
+  height: 200px;
+  width: 200px;
+}
+.sericeBlockContainer {
+  color: #806c6c;
+}
+
+.footerSection {
+  background-color: #133588;
+  padding: 20px 0 0 0;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribeContainer {
+  color: white;
+  width: 350px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscribeContainer input {
+  padding: 10px 0 0 0;
+  background-color: transparent;
+  color: white;
+  border-bottom: white solid 1px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  align-items: center;
+  height: 24px;
+  width: 270px;
+  text-align: center;
+  font-size: large;
+}
+.subscribeContainer input::placeholder {
+  color: white;
+}
+.subscribeContainer button {
+  margin: 50px 0 0 0;
+  width: 100px;
+  height: 33px;
+  color: #133588;
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
 }
